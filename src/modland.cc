@@ -19,7 +19,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <audacious/misc.h>
+#include <libaudcore/misc.h>
 #include <libaudcore/multihash.h>
 
 #include "common.h"

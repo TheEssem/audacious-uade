@@ -20,9 +20,9 @@
 #include <pthread.h>
 #include <stdlib.h>
 
-#include <audacious/input.h>
-#include <audacious/misc.h>
-#include <audacious/plugin.h>
+#include <libaudcore/input.h>
+#include <libaudcore/misc.h>
+#include <libaudcore/plugin.h>
 #include <libaudcore/audstrings.h>
 
 #include <uade/uade.h>

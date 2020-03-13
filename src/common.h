@@ -21,7 +21,7 @@
 
 #include <stdio.h>
 
-#include <audacious/debug.h>
+#include <libaudcore/debug.h>
 
 #define PLUGIN_NAME "uade"
 

@@ -1,6 +1,7 @@
 AC_PREREQ(2.59)
 AC_INIT([audacious-uade], [0.1])
 AC_PROG_CC
+AC_PROG_CXX
 
 AC_CANONICAL_SYSTEM
 
@@ -12,7 +13,7 @@ PKG_CHECK_MODULES([UADE],[libuade >= 2.13])
 AC_SUBST(UADE_CFLAGS)
 AC_SUBST(UADE_LIBS)
 
-PKG_CHECK_MODULES([AUDACIOUS],[audacious >= 3.5 audacious < 3.6],
+PKG_CHECK_MODULES([AUDACIOUS],[audacious >= 3.5],
   [ac_audacious_plugindir=`$PKG_CONFIG --variable=plugin_dir audacious`],
   [ac_audacious_plugindir=;])
 AC_SUBST(AUDACIOUS_CFLAGS)

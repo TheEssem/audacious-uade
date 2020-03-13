@@ -19,7 +19,7 @@
 #ifndef PREFS_H_
 #define PREFS_H_
 
-#include <audacious/preferences.h>
+#include <libaudcore/preferences.h>
 
 #include "common.h"
 
